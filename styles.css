@@ -1,0 +1,170 @@
+.header {
+    height: 72px;
+    background: var(--white);
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 80px 24px 97px;
+    padding: 17px 0 15px;
+    width: 956px;
+}
+
+.header__logo {
+    width: 121px;
+    height: 13px;
+}
+
+.header__input::placeholder {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--font-color);
+}
+.header__urgency {
+    width: 65px;
+    height: 40px;
+    padding: 8px 11px;
+}
+
+.header__address {
+    width: 292px;
+    height: 40px;
+    padding: 8px 68px 8px 36px;
+}
+
+.button{
+    color: #262626;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.btn_register{
+    background-color: #262626;
+    color: #fff;
+    padding: 8px 15.5px;
+    margin-left: 16px;
+    background-color: var(--btn-color);
+    color: var(--white);
+    margin-left: 16px;
+}
+
+.btn_sign-in{
+    color:#262626;
+    text-decoration: none;
+    padding: 8px 15.5px;
+    border: 1px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+}
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  width: 956px;
+  justify-content: center;
+}
+.searchbar {
+  position: relative;
+}
+
+.search__label {
+  margin-top: 73px;
+}
+
+.search__label:before {
+  content: url("../img/path.svg");
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.search::placeholder {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light-gray-font);
+  opacity: 0.5;
+}
+
+.cards__title {
+    font-family: var(--main-font);
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--font-color);
+    align-self: flex-start;
+    margin: 56px 0 16px;
+  }
+  
+.cards_list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 40px;
+    justify-content: space-between;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    padding: 0 0 21px;
+    text-decoration: none;
+  }
+  
+  .card__restaurant {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #262626;
+    margin-top: 16px;
+  }
+  
+  .card__category {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #262626;
+    line-height: 21px;
+    margin: 4px 0;
+  }
+  
+  .card__time {
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #262626;
+    line-height: 21px;
+  }
+  .footer {
+    height: 116px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__wrapper {
+    width: 956px;
+    margin-top: 50px;
+  }
+  
+  .footer__logo {
+    width: 192px;
+    height: 20px;
+  }
+  hr {
+    border-top: 1px solid #ccc;
+    margin: 1; 
+  }
