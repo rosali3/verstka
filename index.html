@@ -20,12 +20,10 @@
                   <input class="header__address" type="text" placeholder="ul. Bolshaya Dmitrovka,22">
                 </label>
               </div>
-            <div class="btn_sign-in">
-                <a class="button" href="#">Sign In</a>
-            </div> 
-            <div class="btn_register">
-                <a class="button" href="#">Register</a>
-            </div> 
+            <a class="btn_sign-in" href="#">Sign In</a>
+            
+            <a  class="btn_register" href="#">Register</a>
+            
             <div class="header_basket">
                 <a href="@"> 
                     <img src="./img/basket.svg" alt="basket">
@@ -34,7 +32,9 @@
 
         </div>
     </header>
+    
     <div class="cards">
+  
   <div class="searchbar">
     <div class="searchbar">
       <label class="search__label">
@@ -129,27 +129,116 @@
   </div>
 </div>
 
+
 <footer class="footer">
-  <div class="footer__wrapper">
-    <img class="footer__logo" src="./img/flogo.svg" alt="logo">
-    <hr align="center">
-    <div class="footer__info">
-      <div class="footer__info_block">
-        <button class="accordion">
-          <div>
-            <i class="fa-solid fa-globe"></i>
-            <span>English</span>
+  <div class="container">
+    <div class="footer__logo">
+      <a href="#"
+        ><img
+          src="./img/flogo.svg"
+          alt="Uber Eats"
+          width="191"
+          height="20"
+      /></a>
+    </div>
+
+    <div class="row footer__info">
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="footer__info-contacts">
+          <div class="footer__info-contacts-dropdown">
+            <select name="language">
+              <option value="english">English</option>
+              <option value="russian">Русский</option>
+            </select>
           </div>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="info_hashtag">
-          <span class="footer_hashtag">#UberEats</span>
+
+          <div class="footer__info-contacts-hashtag">
+            <p class="footer__info-contacts-hashtag_green">
+              #<span class="footer__info-contacts-hashtag_white"
+                >UberEats</span
+              >
+            </p>
+          </div>
+
+          <div class="footer__info-social-links">
+            <a href="#"
+              ><img src="img/facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="img/twitter.svg" alt="Twitter"
+            /></a>
+            <a href="#"
+              ><img src="img/instagram.svg" alt="Instagram"
+            /></a>
+          </div>
         </div>
       </div>
-   </div>
+
+      <div
+        class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__info-block-group"
+      >
+        <ul>
+          <li>
+            <a href="#">About UberEats</a>
+          </li>
+          <li>
+            <a href="#">Become a Delivery Partner</a>
+          </li>
+          <li>
+            <a href="#">Become a Restaurant Partner</a>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 footer__info-block-group"
+      >
+        <ul>
+          <li>
+            <a href="#">See all cities</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#">FAQs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__applications">
+      <a href="#">
+        <img src="img/app_store.svg" alt="App Store"
+      /></a>
+      <a href="#">
+        <img src="img/g_play.svg" alt="Google Play"
+      /></a>
+    </div>
+
+    <div class="row footer__copyright">
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+        © 2017 Uber Technologies Inc.
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+        <a href="#">Privacy</a>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+        <a href="#">Terms</a>
+      </div>
+    </div>
   </div>
 
+  <div class="button-arrow-up">
+    <a class="button-arrow-up" href="#"
+      ><img src="img/Shape.svg" alt="Arrow-up" />
+    </a>
+  </div>
 </footer>
+
 
 <div class="scrollToTop" style="display: block;">
   <i class="icon-up-open-big">
